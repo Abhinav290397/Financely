@@ -1,0 +1,49 @@
+.navbar{
+    background-color: rgba(5, 248, 212, 0.951);
+    box-sizing: border-box;
+    padding: 0.8rem 2rem;
+    position: sticky;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    opacity: 1;
+}
+.logo{
+    color:var(--white);
+    font-weight:500;
+    font-size:24px;
+    text-decoration: none;
+}
+.link{
+    color:var(--white);
+    font-weight:500;
+    font-size:18px;
+    opacity: 1;
+}
+.link:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.info > span{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.info > p{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 5px;
+}
